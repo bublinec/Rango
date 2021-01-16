@@ -20,6 +20,7 @@ from rango import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    # include rango app - url redirected
     path('rango/', include('rango.urls')),
     path('admin/', admin.site.urls),
 ]

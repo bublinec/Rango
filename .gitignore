@@ -1,1 +1,7 @@
+# virtual environment folder 
 /rangoenv/*
+
+# pycache
+/__pycache__/*
+*.pyc
+*.pyo
