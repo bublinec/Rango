@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+{% comment %} django template tags - dneoted by {%%} {% endcomment %}
+{% load static %}
+
 <html>
 <head>
 <title>Rango</title>
@@ -11,6 +15,8 @@ hey there partner! <br />
 </div>
 <div>
 <a href="/rango/about/">About</a><br />
+{% comment %} static is replaced by the static url defined in settings  {% endcomment %}
+<img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango"/>
 </div>
 </body>
 </html>
