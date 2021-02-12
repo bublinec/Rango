@@ -19,7 +19,6 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
@@ -128,3 +127,6 @@ STATIC_URL = '/static/'
 # Media files 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+# Auth urls
+LOGIN_URL = 'rango:login'
